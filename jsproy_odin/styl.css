@@ -1,0 +1,82 @@
+/* *{
+    border: 2px solid red;
+} */
+
+
+.cuerpo{
+    max-width: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: azure;
+}
+
+.titul{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 900;
+    color: black;
+
+}
+/* ---------------------------- */
+p{
+    text-align:center;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 8px;
+    margin-bottom: 8px;
+
+}
+
+
+
+a{
+    text-decoration: none;
+    color: red;
+    font-size: 10px;
+}
+
+.container{
+    border: 2px solid rgb(220, 231, 233);
+    border-radius: 5px;
+    margin: 8px 10px 8px 10px;
+    background-color: rgb(29, 92, 155);
+}
+
+.list1{
+    
+    max-width: 200px;
+    margin: 5px 8px 5px 8px;
+    text-align: start;
+    
+    
+
+}
+li{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 9px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: white;
+}
+
+
+
+
+
+/* cajas flex ----------------- */
+
+.container{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    
+}
+
