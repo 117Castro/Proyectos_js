@@ -34,7 +34,7 @@ function determinarganador(playerchoise, consolechoise){
             return "Eres el ganador!!!";
         }
     else{
-        return "Haz perdido contra la maquina";
+        return "Haz perdido contra la maquina!!";
     }
 }
 
@@ -47,6 +47,8 @@ function playergame(){
     const playerchoise = getelecionusuario();
     const consolechoise = getelecionpc();
 
+
+    console.log("Juega Piedra, papel o Tijera. ")
     console.log("Tu eleccion fue: ", playerchoise );
     console.log("La eleccion de la maquina fue: ", consolechoise);
 
@@ -56,3 +58,5 @@ function playergame(){
 }
 
 playergame();
+
+
