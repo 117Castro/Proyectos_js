@@ -27,6 +27,8 @@ function getRandomInt(min, max) {
 console.log(getRandomInt(2,6));
 
 
+// prueba de codi para piedra papel o tijera, seguramenyte no funcione.....
+
 
 
 
