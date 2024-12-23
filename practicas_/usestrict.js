@@ -3,7 +3,7 @@
 //pos no hay efecto en el agregar esta linea de modo estricto
 
 'use strict';
-alert(23+43);
+// alert(23+43);
 console.log("prueba del uso de scrit");
 
 function suma(){
@@ -14,7 +14,7 @@ function suma(){
     return;
 }
 
-suma();
+// suma();
 
 
 
@@ -24,7 +24,27 @@ function muesrtauser(){
 
     alert(userpron);
 }
-muesrtauser();
+//muesrtauser();
+
+
+
+let x = 1;
+x= -x;
+console.log(x);
+
+let s="we";
+console.log(+s);
+
+
+
+// let ret= +prompt("esccribe un numero");  el aler aler por defecto es string.
+// let ter= +prompt("escribe otro");
+
+// // alert(ret+ter);
+
+
+
+
 
 
 
