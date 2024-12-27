@@ -42,8 +42,13 @@ console.log(+s);
 
 // // alert(ret+ter);
 
+// terminos de igualdad, es algo que ya vi y lo tengo bien grabado en la memoria pero lo wa ver pq debo repasarlo
+
+//no se si este llendo lento, pero de que llego llego.
 
 
+
+//uso del if....
 
 
 
