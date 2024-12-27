@@ -48,6 +48,17 @@ console.log(+s);
 
 
 
+
+// alert("hola");
+// [1, 2].forEach(alert);
+
+
+// en js el valor 0 es evaluado como true al igual que espacio, sin envargo el dejar el string sin espacio y vacio 
+// toma el valor como false
+// alert(Boolean(""));
+
+
+//------------------------
 //uso del if....
 
 
