@@ -62,6 +62,124 @@ console.log(+s);
 //uso del if....
 
 
+let year= 2015;
+     if (year == 2015) 
+        console.log("eres muy listo");
+
+
+
+     let numeros= (year==2015);
+     if (numeros){
+        console.log("if comparando con el uso de una variable. ");
+     }else {
+        console.log("mo es correcto");
+     }
+
+
+    function prueba_if(){
+        let year= prompt("escribe un mumero entre 2 y 5");
+
+        if (year>=2 && year<=5){
+            console.log('tu numero esta dentro del rango');
+        } else if(year<2 && year==1 || year>5){ 
+            console.log("tu numero esta fuera del rango");
+        }else{
+            console.log("no escribiste un numero y solo diste enter, pinche webon");
+        }
+        //si quiero jugar con rangos, dentro de lo permitido debo usar AND y fuera de lo permitido debo usar OR, algo nuevo...
+
+    }
+
+    prueba_if();
+
+
+
+    function ternario(){
+
+        let edad= prompt("edad?", 18); //el segundo valor se imprime con el alert. 
+
+        let total= (edad<18)? 
+        console.log("eres menor"):
+        console.log("eres mayor");
+
+
+
+
+
+    }
+
+    // ternario();
+
+
+    function nombrejs(){
+        let name= prompt("¿Cuál es el nombre “oficial” de JavaScript?")
+        
+
+        if(name=="ECMAScript"){
+            console.log("es correcto!!");
+        }else{
+            console.log("es incorrecto, el nombre oficial es: ECMAScript ");
+        }
+    }
+
+    // nombrejs();
+
+
+    function numeros0(){
+        let num = prompt("escribe un numero ");
+
+        if  (num > 0){
+            console.log("1");
+
+        }else if(num < 0){
+            console.log("-1");
+
+        }else{
+            console.log("0");
+        }
+    }
+
+    // numeros0();
+
+
+    function converternario(){
+        let resu;
+
+        let val= (2+1<4)?resu="debajo":
+        resu="ensima";
+
+        console.log(resu);
+    }
+
+    // converternario();
+
+
+
+    function converif(){
+        let login= "empleado";
+
+        //la sintaxis es la correcta pero debo agregar la funcionalidad
+        let mensaje= (login == "empleado")? "hola":
+        (login == "director")? "felicidades":
+        (login == "")? "sin secion":
+        "  ";
+        console.log(mensaje);
+
+    }
+
+    // converif();
+
+    
+
+
+
+
+
+
+
+
+
+
 
 
 
