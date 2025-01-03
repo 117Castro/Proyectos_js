@@ -220,6 +220,9 @@ function login_logico(){
 
 
 
+// WHILE y FOR
+
+
 
 
 
