@@ -207,6 +207,29 @@ function login_logico(){
 // login_logico();
 
 
+//el condicional nullish es un comparador, imprimira el valor que si esta definido y evitara el que es null o undefined
+//es muy parecido a OR la diferencia es que uno imprime le primer valor que sera verdadero y el otro imprime el primero que este definido
+
+    let a, b=2;
+    console.log(a??b);
+
+
+    let ds, gj=0;
+    console.log(ds||gj||100);// OR toma al sero como falso y deja al siguiente valor imprimirse. 
+    console.log(ds??gj??100);//mientras que nullish imprime el primer valor que es definido aun cuando sea 0.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
