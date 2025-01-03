@@ -77,6 +77,7 @@ let year= 2015;
 
 
     function prueba_if(){
+        // let year= document.getElementById("años").value;
         let year= prompt("escribe un mumero entre 2 y 5");
 
         if (year>=2 && year<=5){
@@ -169,7 +170,41 @@ let year= 2015;
 
     // converif();
 
-    
+
+
+
+    //puertas AND, OR, NOT
+
+// login usando puertas logias
+
+
+function login_logico(){
+
+    let username= prompt("Introduce tu nombre de usuario");
+
+    if (username=== "admin"){
+
+        let pasw= prompt("escribe tu contraceña")
+        if (pasw=== "123"){
+            alert("bienbenido");
+
+        }else if (pasw===""||pasw===null){
+            alert("cancelado");
+
+        }else{
+            alert("no eres tu ")
+        }
+
+
+
+    }else if (username === "" || username=== null){
+        alert("cancelado");
+    }else{
+        alert("no te conozco");
+    }
+}
+
+// login_logico();
 
 
 
