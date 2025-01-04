@@ -223,21 +223,158 @@ function login_logico(){
 // WHILE y FOR
 
 
+let i=0;
+
+while(i < 3){  //repite el bucle hasta que se cmpla la condicion
+    console.log(i);
+    i++;
+
+ }
+
+do{  // esta sintaxis es cuando quiero que se imprima almenos una vez antes de ver la condicion
+    
+    console.log(i);
+    i++;
+}while(i<5);
+
+
+function mientras(){
+
+    let i = 1;
+
+    while(i<=10){
+        console.log("i");
+        i++;
+    }
+}
+// mientras();
+
+
+//for
+
+for(let i=0; i<3; i++){
+    console.log("i", i);
+
+}
+
+
+
+function forpares(){
+
+    for (let i = 0; i < 10; i++) {
+    
+        // si es verdadero, saltar el resto del cuerpo
+        if (i % 2 == 0) continue;
+      
+        //console.log(i); // 1, luego 3, 5, 7, 9
+      }
+}
+
+// forpares()
 
 
 
 
 
+//practicas de tarea
+
+function tarae1(){
+    let i =3;
+    while(i){
+        console.log(i--);
+
+    }
+}
+
+tarae1();
+
+
+function incrementoinicio0(){
+
+    for (let i=0; i <5; i++){ //esto es igual al while de la linea 228, inicia desde el 0
+        alert(i);
+    }
+}
+
+// incrementoinicio0();
+
+
+
+//imprimiendo numeros pares
+function numpares(){
+    for (let i = 2; i <=10 ; i++){
+        if (i % 2 == 0){
+            alert(i);
+        }
+    }
+}
+
+// numpares();
+
+
+function converwhil(){
+
+    let i = 0;
+    while(i<3){
+        alert(`número ${i}!`)
+        i++;
+    }
+}
+
+// converwhil();
+
+
+
+//El uso de do while, primero ejecuta el cuerpo del codigo y luego se verifican las condiciones, no lo habria descubierto de no verlo en la solucion. 
+
+function cien(){
+
+
+    let num;
+    do{
+        num= prompt("escribe un numeor mayor a 100", 0);
+
+    }while(num<=100 && num);
+}
+
+
+// cien();
 
 
 
 
 
+function imparesN(){
+
+    let val = prompt("Hasta que numero quieres saver los impares ", 0);
+
+    for (let i = 2; i< val; i++){
+        if (i % 2 == 0) continue;
+        alert(i);
+    }
+}
+// imparesN();
+  // estupendo logre hacer que funcionara por mi mismo. solo tuve que reutilizar la formula de antes "(i % 2 ==0) continue;"
 
 
 
+function dosN(){
+
+    let n = prompt ("escribe el numero al que quiees llegar ", 0);
+
+    nexprimo:
+    for (let i =2; i <= n; i++){
+
+        for( let j =2; j < i; j++){
+            if (i % j == 0) continue nexprimo;
+        }
+        alert(i);
+    }
 
 
+}
+
+// dosN();
 
 
 
