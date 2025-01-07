@@ -377,8 +377,47 @@ function dosN(){
 // dosN();
 
 
+//sintaxis de uso de switch
 
 
+//--tarea
+
+function navegadores_sitch(){
+    let navegador = prompt("cual es tu navegador", "opera");
+
+if (navegador == "edge"){
+    alert("tienes Edge");
+}else if (navegador== "chrome"
+    ||navegador== "firefox" 
+    ||navegador== "safari"
+    ||navegador== "opera"){
+        alert("esta bien soportamos este tipo de navegadores");
+}else {
+    alert("esperamos que esta pagina se vea bien")
+}
+}
+
+// navegadores_sitch();
 
 
+function switch_prueba(){
+    let a = +prompt("escribe un numero del 0 al 3");
+
+    switch (a){
+        case 0:
+            alert("tu numero es 0");
+            break;
+        case 1:
+            alert("tu numero es uno");
+            break;
+        case 2:
+        case 3:
+            alert("tu numero es 2 o 3");
+            break;
+        default:
+            alert("no pos ya valio madre, tu numero no es. ");
+        }
+}
+
+// switch_prueba();
 
