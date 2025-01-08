@@ -421,3 +421,25 @@ function switch_prueba(){
 
 // switch_prueba();
 
+
+
+function showMessage(from, text = "sin texto") { //al no colocar un argumento en el paremetro lo coloca como indefinido pero podemos asignar algo en caso que pase esto...
+    alert( from + ": " + text );
+  }
+  
+//   showMessage("Ann", "buerro"); // Ann: sin texto
+
+
+// prefijos usados para funciones:
+
+// get--- devuelve un valo
+// show--- muestra algo
+//calc-- calcula valores
+//create-- crea algo
+//check --- verifica algo
+
+
+
+
+
+
