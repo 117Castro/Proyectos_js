@@ -91,7 +91,7 @@ let year= 2015;
 
     }
 
-    prueba_if();
+    // prueba_if(); //_--------------- funcion de prueba de if ---------------------------
 
 
 
@@ -437,6 +437,109 @@ function showMessage(from, text = "sin texto") { //al no colocar un argumento en
 //calc-- calcula valores
 //create-- crea algo
 //check --- verifica algo
+
+let getmensaje = function(){
+    alert("hola mundo");
+}
+
+// getmensaje();  //es mas comun ell uso de expreciones de variables.
+
+
+// expreciones de funciones con reasignacion de variables
+
+let sayi = function(){
+    alert("prueba de exprecion de funcones");
+
+}; //se debe colocar el punto y coma en el caso de que estemos hablando de expresion de funciones 
+
+// sayi();
+
+let showfuncion = sayi;
+
+// showfuncion();
+// sayi();
+
+
+
+//------------------------ funcion usando parametros
+
+function ask(pregunta, yes, no){
+    if (confirm(pregunta)) yes()
+        else no()
+}
+
+
+function showOk(){
+    alert("confirmado");
+}
+
+function showCancelado(){
+    alert("cancelado");
+}
+
+// ask("¿Confirmas o no?", showOk, showCancelado);
+
+
+
+
+let showAlertsMensages = function(){
+    confirm("estas sentado");
+
+    alert("estas semtado");
+    
+    let ghy= prompt("maniderfwaohuf  ");
+    
+    console.error(ghy);
+    console.log(ghy);
+
+}
+
+
+/*Exprecion de funciones, me permite declarar una funcion fuera de bloque, pero con una declaracion no es posible */
+function showAnidados(){
+
+
+let pregunta= prompt("que edad tienes", 18);
+
+let welcome;
+
+if (pregunta > 18){
+    welcome  = function(){
+        alert("hola");
+    }
+
+} else {
+    welcome =function (){
+        alert("Menor de edad");
+    }
+
+
+}
+
+welcome();
+
+}
+
+
+// showAnidados();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
