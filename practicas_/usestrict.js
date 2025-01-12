@@ -524,14 +524,15 @@ welcome();
 // showAnidados();
 
 
+//el uso de \ para poner comilasentre comillas es un atnto molesto
+const myStr = "I am a \"double quoted \" string inside \"double quotes\".";
 
-
-
-
-
-
-
-
+// console.log(myStr);
+/**
+ * tambien aprendi a como poner texts comentados en js usando el ente y el asterisco..
+ * est util para no tener tan largas las lineas de codigo y asi que sea mejor y mas 
+ * facil leer lo que estoy colocando en el texto...
+ */
 
 
 
