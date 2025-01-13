@@ -537,6 +537,62 @@ const myStr = "I am a \"double quoted \" string inside \"double quotes\".";
 
 
 
+// prueba de funciones de flecha
+
+let func= ()=> alert("Prueba de funciones");
+// func();
+
+
+
+
+/**prueba de funciones de flech usando una variable para introduciir un valor */
+
+// let getvalor= +prompt("ingresa un valor nuemrico", 0);
+
+            /**diferentes foras de escribir la funcion y obtener el mismo resultado */
+let func2= val2 => {
+
+    let prub =(val2 * 46)/2;
+document.getElementById("numero").innerHTML= prub;
+
+    console.log((val2 * 46)/2);
+};
+
+// func2(getvalor);
+
+let func3= ()=> console.log((getvalor * 46)/2);
+// func3();
+
+
+
+//-------------------------------------------------------------------
+/** Tarea de funciones de flecha */
+
+let lol = (pregunta, yes, no) => {
+    if (confirm(pregunta))yes();
+    else no();
+};
+
+/**lol( //colocando argumentos con utilidad de funciones
+    "¿Estas sentado frente a tu computador?",  
+     function(){alert("confirmado")},
+      function(){alert("negativo")}
+);
+
+
+lol( //usando funcioes de flecha para declarar argumentos
+    "¿Estas sentado frente a tu computador?",
+     ()=> alert("confirmado"),
+     ()=> alert("negativo")
+);*/
+
+//----------------------------------------------------------------------
+
+
+
+
+
+
 
 
 
