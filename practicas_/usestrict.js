@@ -588,15 +588,21 @@ lol( //usando funcioes de flecha para declarar argumentos
 
 //----------------------------------------------------------------------
 
+/**que buena onda, par colocar la pleca inverida es utilizando el teclado en ingles 
+ * y de la misma laptop
+ */
+let alt= 34;
+console.log(`hola como estas $${alt}`);
 
 
+console.log("Hola \"mundo cruel\" que viva mexico");
 
+console.log("\nprimera liena\n\tprueba de tabulacion de segunda linea\ntercera linea");
 
+/**prueba de length */
+let longitud= "prueba de longitud de texos";
 
-
-
-
-
+console.log(longitud.length);
 
 
 
