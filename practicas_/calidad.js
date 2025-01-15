@@ -14,15 +14,14 @@ for(let i = 0; i< 5; i++){
     console.log(" numeros repetidos");
 }
 
-let mi_arreglo=["prueba de arreglo", 23, 34, "Hola que hace"];
 
-console.log(mi_arreglo[0]);
+/**prueba de arreglos */
+let cosas = [23, 34, 43];
+console.log(cosas[0]);
 
-mi_arreglo[0]= "segunda prueba de areglo modificado";
-console.log(mi_arreglo[0]);
+cosas[0]=12;
 
-
-
+console.log(cosas[0]);
 
 
 
