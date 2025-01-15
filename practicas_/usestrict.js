@@ -565,6 +565,7 @@ let func3= ()=> console.log((getvalor * 46)/2);
 
 
 
+
 //-------------------------------------------------------------------
 /** Tarea de funciones de flecha */
 
@@ -593,6 +594,8 @@ lol( //usando funcioes de flecha para declarar argumentos
  */
 let alt= 34;
 console.log(`hola como estas $${alt}`);
+
+
 
 
 console.log("Hola \"mundo cruel\" que viva mexico");
