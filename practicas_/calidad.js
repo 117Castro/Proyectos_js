@@ -21,11 +21,16 @@ console.log(cosas[0]);
 
 cosas[0]=12;
 
+cosas.push("probando el comando de push", 2025);// el comando push agregara los datos como indices individuales...
+cosas.push(["probando el comando de push", 2025]);/**en este caso el arreglo obtendra estos indices como un segundo arreglo que formara 
+parte de la segunda dimencion del array "[23, 34, 43, ["probando el comando de push", 2025]]"  */
+
+//impresion de los indices
 console.log(cosas[0]);
+console.log(cosas[4]);
+console.log(cosas[5]);
 
-
-
-
+console.log(cosas);// mostrara el arreglo por completo...
 
 
 
