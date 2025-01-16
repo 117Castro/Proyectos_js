@@ -54,23 +54,74 @@ console.log(myArray_frutas);
 
 /**Usando la metodologia de cola (queue) utilizamos las funciones de .push() y .shift()
  * 
- * usemos el ejemplo de una cola de supepr mercados. 
+ * usemos el ejemplo de una cola de super mercados, iniciamos con un cliente en la cola y de uno en uno 
+ * se van sumando a la fila  y el primero que va llegando es el primero que se va despachando y cuntinua el siguiente en la fila. 
  */
-Array.push()
-Array.shift();  
+   //         Array.push();
+     //       Array.shift();  
 
 
 /** Usando la metodologia de pila usamos .push() y .pop() para manejar los datos 
  * 
- * usemos el ejemplo de los platos cuando los estamos lavando
+ * usemos el ejemplo de los platos cuando los estamos lavando, en este caso supongamos que estas lavando platos y quieres
+ * tomar uno de ellos, en este caso tomas el ultimo que colocas en la pila de platos y no el primero que pusiste. 
  */
 
-Array.push();
-Array.pop();
+     //           Array.push();
+      //          Array.pop();
 
 /** Ahora usando el otras funcines: */
 
-Array.unshift(); //esta funcion me permite integrar elementos al inicio de los arreglos. 
+     //   Array.unshift(); //esta funcion me permite integrar elementos al inicio de los arreglos. 
+
+
+
+
+/**funcion que toma un numero del usuario y lo introduce a el arreglo */
+
+let newarr = ["1", 1, 2, 3, "2"];
+document.getElementById("arreglo").innerHTML ="Before: " + JSON.stringify(newarr); 
+
+function myArreglo_usuario(arr, items){ //esta fucin toma los argumentos desde un arreglo y del usuariopara agregar y eliminar un datos.
+
+    arr.push(items); //introduce un nuevo dato al final del arreglo.
+    let delet= arr.shift();//elimina y almacena el dato de la posicion 0. 
+    
+}
+
+
+/** Esta funcion se encarga de tomar los datos del usuario, ejecutar la funcion myarreglo_usuario()
+ * y mostrar la nueva informcion y al mismo tiempo limpiar los espacios del input.
+ */
+function dato_usr(){
+    
+    let get_user_date = document.getElementById("date_user").value;
+    myArreglo_usuario(newarr, get_user_date);
+    document.getElementById("arreglo2").innerHTML ="After: " + JSON.stringify(newarr); 
+    document.getElementById("date_user").value = "";
+}
+
+
+/** Funcion de limpiesa mef¿diante boton extra
+function limpiar(){
+
+    document.getElementById("date_user").value = "";
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
