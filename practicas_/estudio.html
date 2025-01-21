@@ -50,6 +50,7 @@
         <h4>Modificacion de un arreglo usando el metodo de pila: </h4>
         <p id="pila_arreglo"></p>
         <input type="text" name="" id="pila_date">
+
         <button id="" type="button" onclick="datos_pila()">Introducir datos</button>
 
         <!-- <button id="clear" type="button" onclick="delete_shift()">limpiar primer item</button> -->
@@ -59,8 +60,46 @@
     
     </div>
 
+
+<!-- Prueba de copia e imprecion de contenido usando imput -->
+
+    <div class="arreglo">
+
+        <labe>Escribe un digito</labe>
+
+        <input type="text" id="imput1">
+        <button id="botonin" type="button" onclick="showImput()">Transcribir</button>
+        <input type="text" id="imput2">
+
+
+    </div>
+
+    <script>
+    
+        document.getElementById("imput1").focus();
+
+        function showImput() {
+            let getUsuario = document.getElementById("imput1").value;
+
+            document.getElementById("imput2").value = getUsuario ;
+        }
+
+        document.getElementById('imput1').addEventListener('keydown', inputCharacters);
+
+        function inputCharacters(event) {
+        
+            if (event.keyCode == 13) {
+                document.getElementById('botonin').focus();
+            }
+
+        }
+
+       
+
+    </script>
+
    
-  
+  <!--  -->
 
     
 
