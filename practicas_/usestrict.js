@@ -590,10 +590,14 @@ lol( //usando funcioes de flecha para declarar argumentos
 //----------------------------------------------------------------------
 
 /**que buena onda, par colocar la pleca inverida es utilizando el teclado en ingles 
- * y de la misma laptop
+ * y de la misma laptop, usando la tecla de llave de cierre o en teclado en ingles la tecla de \\.
+ * Tambien el como poner comillas invertidas para colocar variables o formulas entre texto es usando la tecla antes
+ * del numero 1. Siempre con teclado en INGLES!!!!
  */
 let alt= 34;
 console.log(`hola como estas $${alt}`);
+
+
 
 
 

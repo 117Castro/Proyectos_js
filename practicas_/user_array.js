@@ -9,7 +9,7 @@ document.getElementById("pila_arreglo").innerHTML ="Before: " + JSON.stringify(o
 
 
 
-function myArreglo_usuario(arr, item){ //esta fucin toma los argumentos desde un arreglo y del usuariopara agregar y eliminar un datos.
+function myArreglo_usuario(arr, item) { //esta fucin toma los argumentos desde un arreglo y del usuariopara agregar y eliminar un datos.
 
     arr.push(item); //introduce un nuevo dato al final del arreglo.
     let delet= arr.shift();//elimina y almacena el dato de la posicion 0. 
@@ -17,7 +17,7 @@ function myArreglo_usuario(arr, item){ //esta fucin toma los argumentos desde un
 }
 
 
-function myArray_pila(arry, items){/**Esta funcion cunple el mismo procedimiento de la anterior, la diferencia es que en lugar de eliminar el primer dato
+function myArray_pila(arry, items) {/**Esta funcion cunple el mismo procedimiento de la anterior, la diferencia es que en lugar de eliminar el primer dato
     * elimina el ultimo dato de dicha funcion.
     */
 
