@@ -17,7 +17,8 @@ function myArreglo_usuario(arr, item) { //esta fucin toma los argumentos desde u
 }
 
 
-function myArray_pila(arry, items) {/**Esta funcion cunple el mismo procedimiento de la anterior, la diferencia es que en lugar de eliminar el primer dato
+function myArray_pila(arry, items) {/**Esta funcion cunple el mismo procedimiento 
+    de la anterior, la diferencia es que en lugar de eliminar el primer dato
     * elimina el ultimo dato de dicha funcion.
     */
 
@@ -51,7 +52,7 @@ function datos_pila(){
 }
 
 
-
+//---------------------------------------------------------------------------------
 
 /**Esta funcion lo que hace es el uso de shift(), elimina el ultimo elemento de un 
  * arreglo sin agregar un nuevo dato.
@@ -65,8 +66,6 @@ function delete_shift(){
 }
 
 
-
-
 /** Funcion de limpiesa mef¿diante boton extra
 function limpiar(){
 
@@ -76,3 +75,37 @@ function limpiar(){
 
 
 
+
+
+/** Funcion de prueba: copia el valor de un input e 
+ * imprimelo en otro input al hacer clic en un boton */
+
+document.getElementById("imput1").focus(); /**este comando me permite focalizar 
+el imput para escribir directamente ahi al cargar la pagina
+*/
+
+function showImput() {
+    let getUsuario = document.getElementById("imput1").value;
+
+    document.getElementById("imput2").value = getUsuario ;/**al querer mostrar un valor en un input
+    la etiqueta de .innerHTML no funcionara, en su lugar se debe usar la etiqueta .value */
+}
+
+document.getElementById('imput1').addEventListener('keyup', inputCharacters);/** con el evento addEventListener 
+asignamos eventos ya sea a botones o tambien a otros elementos como los input
+keyup permite que los procesos se ejecuten unicamente cuando las teclas se lavantan al ser precionadas, 
+tambien esta el evento keydown, keypress; eventos que hacen la misma funcion pero en distintas etapas de 
+precion de boton. */
+
+function inputCharacters(event) {
+    if (event.keyCode == 13) { // esta linea especifica el code de la tecla enter
+        document.getElementById('botonin').focus();/** la funcion .focus() focalisa 
+        el elemento en la que la coloquemos */
+        event.preventDefault();/**esta funcion permite prevenir eventos que no 
+        queremos que pasen, asi de simple */
+    }
+
+}
+
+
+//-----------------------------------------------------------------------------------------------

@@ -15,3 +15,11 @@
 
 
 }
+
+.red{
+    
+    margin: 10px;
+    gap: 8px;
+    box-shadow: 2px 4px 16px rgba(131, 7, 7, 0.2); 
+
+}
