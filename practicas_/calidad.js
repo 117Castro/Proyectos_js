@@ -52,6 +52,10 @@ console.log(myArray_frutas);
 
 
 
+ let sdf = [2, 3, 4, 45, "ikmujhef"];
+
+ console.log(sdf[0]);
+
 /**Usando la metodologia de cola (queue) utilizamos las funciones de .push() y .shift()
  * 
  * usemos el ejemplo de una cola de super mercados, iniciamos con un cliente en la cola y de uno en uno 

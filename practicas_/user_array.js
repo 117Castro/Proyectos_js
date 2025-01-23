@@ -52,31 +52,31 @@ function datos_pila(){
 }
 
 
-//---------------------------------------------------------------------------------
 
 /**Esta funcion lo que hace es el uso de shift(), elimina el ultimo elemento de un 
  * arreglo sin agregar un nuevo dato.
- */
+*/
 function delete_shift(){
-
+    
     other_array.shift();
     document.getElementById("arregloPila").innerHTML ="After: " + JSON.stringify(other_array); 
-
-
+    
+    
 }
 
 
 /** Funcion de limpiesa mef¿diante boton extra
-function limpiar(){
+ function limpiar(){
 
-    document.getElementById("date_user").value = "";
-}
-*/
-
-
+ document.getElementById("date_user").value = "";
+ }
+ */
 
 
 
+
+
+//---------------------------------------------------------------------------------
 /** Funcion de prueba: copia el valor de un input e 
  * imprimelo en otro input al hacer clic en un boton */
 
