@@ -113,3 +113,4 @@ function inputCharacters(event) {
 /**Escribe comentarios cunado el codigo se muy explicito y no se entienda de manera intuitiva,
  * y no escribas comentarios que explique como funciona el codigo o una funcion.
  */
+

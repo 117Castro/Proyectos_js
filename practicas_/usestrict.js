@@ -170,7 +170,7 @@ let year= 2015;
 
     // converif();
 
-
+    
 
 
     //puertas AND, OR, NOT
